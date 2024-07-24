@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/7735029cea.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/7735029cea.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+       <nav class="navbar navbar-expand-lg navbar-light text-bg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="image/marvel_logo.gif" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 ">
+                        <li class="nav-item nav_hover">
+                            <a class="nav-link active" href="Marvel_main_page.html"><b>Home</b></a>
+                        </li>
+                        <li class="nav-item nav_hover">
+                            <a class="nav-link active" href="Movies.html"><b>Movies</b></a>
+                        </li>
+                        <li class="nav-item nav_hover">
+                            <a class="nav-link active " href="Cast.html"><b>Cast</b></a>
+                        </li>
+                        <li class="nav-item nav_hover">
+                            <a class="nav-link active " href="News.html"><b>News</b></a>
+                        </li>
+                        <li class=" nav-item nav_hover ">
+                            <a class="nav-link active " href="#Marvel_Insider "><b>Marvel-Insider</b></a>
+                        </li>
+                        <li class="nav-item nav_hover ">
+                            <a class="nav-link active " href="#more"><b>More</b></a>
+                        </li>
+                    </ul>
+                    <form class="d-flex ">
+                        <input class="form-control me-2 " type="search " placeholder="Movie name " aria-label="Search ">
+                        <button class="btn btn-outline-danger " type="submit ">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+       <hr>
+        <!-- ----coroasl------ -->
+        <div id="carouselExampleDark" class="carousel carousel slide image_size">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <video src="video/Marvel S.mp4 " class="d-block w-100" autoplay muted loop></video>
+                    <div class="carousel-caption d-none d-md-block ">
+                        <h5 style="color: rgba(255, 255, 255, 0.742); text-shadow:5px 5px 8px black ;"><b style="color:brown;">Marvel</b> Studio</h5>
+                        <p style="color: rgba(255, 255, 255, 0.604); text-shadow:3px 3px 3px black ;">Marvel Studios, LLC is an American film and television production company that is a subsidiary of Walt Disney Studios, a division of Disney Entertainment, which is owned by the Walt Disney Company..</p>
+                    </div>
+                </div>
+                <div class="carousel-item" >
+                    <video src="video/Marvel_s_Avengers__Age_of_Ultron_Trailer_3__Hindi____Releasing_24_April_2015(720p).mp4" class="d-block w-100" autoplay muted loop></video>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 style="color: rgba(255, 255, 255, 0.742); text-shadow:5px 5px 8px black ;">Age of ultron</h5>
+                        <p style="color: rgba(255, 255, 255, 0.704); text-shadow:3px 3px 3px black ;">Age of Ultron is a 2015 American superhero film based on the Marvel Comics superhero team the Avengers.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <video src="video/Infinity war.mp4" class="d-block w-100" autoplay muted loop></video>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 style="color: rgba(255, 255, 255, 0.742); text-shadow:5px 5px 8px black ;">Avengers: Infinity War</h5>
+                        <p style="color: rgba(255, 255, 255, 0.705); text-shadow:3px 3px 3px black ;">Infinity War is a 2018 American superhero film based on the Marvel Comics superhero team the Avengers.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <video src="video/Endgame.mp4" class="d-block w-100" autoplay muted loop></video>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 style="color: rgba(255, 255, 255, 0.742); text-shadow:5px 5px 8px black ;">Avengers: Endgame</h5>
+                        <p style="color: rgba(255, 255, 255, 0.705); text-shadow:3px 3px 3px black ;">Endgame is a 2019 American superhero film based on the Marvel Comics superhero team the Avengers.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+        <br>
+        <!-- Serate inovation banner -->
+        <div id="secret_invasion_banner">
+        <img src="image/secret-invasion-x_banner.jpg" class="img-fluid" alt="...">
+        </div>
+        <div id="secret_invasion_banner1">
+            <center><a href="https://www.youtube.com/watch?v=Tp_YZNqNBhw" style="text-decoration: none; color: white; padding: 8px; background-color: red; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; ">More info.</a></center>
+        </div>
+
+
+        <!-- -------Movie Section-------- -->
+        <video src="video/MARVEL MOVIES.mp4" class="img-fluid" autoplay loop muted width="430rem"></video> 
+        <center>
+            <a href="" class="hw">
+                <div class="card news_section_card "style="width: 12rem; margin: 15px; display: inline-block;">
+                    <img src="image/avenger ssecret wars.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text"><b>Secret Wars</b><br>MAY 7, 2027</p>
+                    </div>
+                </div>
+            </a>
+           <a href="">
+            <div class="card news_section_card" style="width: 12rem; margin: 15px; display: inline-block;">
+                <img src="image/avengers the kang dynasty.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text"><b>The Kang Dynasty</b><br>MAY 1, 2026</p>
+                </div>
+            </div>
+           </a>
+            <a href="">
+                <div class="card news_section_card" style="width: 12rem; margin: 20px; display: inline-block;">
+                    <img src="image/fantastic four.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text"><b>Fantastic Four</b><br>MAY 2, 2025</p>
+                    </div>
+                </div>
+                
+            </a>
+            <a href="">
+                <div class="card news_section_card" style="width: 12rem; margin: 20px; display: inline-block;">
+                    <img src="image/blade lob.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text"><b>Blade</b><br>FEB 14, 2025</p>
+                    </div>
+                </div>
+    
+            </a>
+           <a href="">
+            <div class="card news_section_card" style="width: 12rem; margin: 20px; display: inline-block;">
+                <img src="image/thunderbolts.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text"><b>Thunderbolts</b><br>DEC 20, 2024</p>
+                </div>
+            </div>
+           </a>
+            <a href="">
+                <div class="card news_section_card" style="width: 12rem; margin: 20px; display: inline-block;">
+                    <img src="image/captain america.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text"><b>Brave New World</b><br>JUL 26, 2024</p>
+                    </div>
+                </div>
+            </a>
+            <a href="">
+                <div class="card news_section_card" style="width: 12rem; margin: 20px; display: inline-block;">
+                    <img src="image/deadpool 3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text"><b> Deadpool 3</b><br> MAY 3, 2024</p>
+                    </div>
+                </div>
+            </a>
+            <a href="">
+                <div class="card news_section_card" style="width: 12rem; margin: 20px; display: inline-block;">
+                    <img src="image/the marvels.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text"><b>The Marvels</b><br> NOV 10, 2023</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="">
+                <div class="card news_section_card" style="width: 12rem; margin: 20px; display: inline-block;">
+                    <img src="image/blackpantherwakandaforever.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text"><b>Wakanda Forever</b><br>2023</p>
+                    </div>
+                </div>
+            </a>
+            <a href="">
+                <div class="card news_section_card" style="width: 12rem; margin: 20px; display: inline-block;">
+                    <img src="image/thor love and thunder.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text"><b>Love and Thunder</b><br>2022</p>
+                    </div>
+                </div>
+            </a>
+            <a href="">
+                <div class="card news_section_card" style="width: 12rem; margin: 20px; display: inline-block;">
+                    <img src="image/guardians of the galaxy volume3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text"><b>G.O.Galaxy Vol.3</b><br>2023</p>
+                    </div>
+                </div>
+            </a>
+            <a href="">
+                <div class="card news_section_card" style="width: 12rem; margin: 20px; display: inline-block;">
+                    <img src="image/ant man and the wasp quantumania.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text"><b>The Wasp: Quantumania</b><br>2023</p>
+                    </div>
+                </div>
+            </a>
+
+            
+
+            <a href="">
+                <div class="card news_section_card" style="width: 12rem; margin: 15px; display: inline-block;">
+                    <img src="image/dr.strange int the Mutiverse of madness.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text"><b>Multierse of madeness</b><br>2022</p>
+                    </div>
+                </div>
+            </a>
+            <a href="">
+                <div class="card news_section_card" style="width: 12rem; margin: 15px; display: inline-block;">
+                    <img src="image/Spider-man No way home.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text"><b>No way home</b><br>2021</p>
+                    </div>
+                </div>
+            </a>
+            <a href="">
+                <div class="card news_section_card" style="width: 12rem; margin: 20px; display: inline-block;">
+                    <img src="image/Eternals.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text"><b>Enternals</b><br>2021</p>
+                    </div>
+                </div>
+            </a>
+           <a href="">
+            <div class="card news_section_card" style="width: 12rem; margin: 20px; display: inline-block;">
+                <img src="image/Shange-chi and the legend of the ten rings.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text"><b>Shange-Chi</b><br>2021</p>
+                </div>
+            </div>
+           </a>
+
+            <a href="">
+                <div class="card news_section_card" style="width: 12rem; margin: 20px; display: inline-block;">
+                    <img src="image/black widow.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text"><b>Black Widow</b><br>2021</p>
+                    </div>
+                </div>
+            </a>
+           <a href="">
+            <div class="card news_section_card" style="width: 12rem; margin: 20px; display: inline-block;">
+                <img src="image/Spider-man No way home.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text"><b>No way home</b><br>2021</p>
+                </div>
+            </div>
+           </a>
+            <a href="">
+                <div class="card news_section_card" style="width: 12rem; margin: 20px; display: inline-block;">
+                    <img src="image/Endgame.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text"><b>Endgame</b><br> 2019</p>
+                    </div>
+                </div>
+            </a>
+            <a href="">
+                <div class="card news_section_card" style="width: 12rem; margin: 20px; display: inline-block;">
+                    <img src="image/captain marvel.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text"><b>Captain mervel</b><br>2019</p>
+                    </div>
+                </div>
+            </a>
+            <a href="">
+                <div class="card news_section_card" style="width: 12rem; margin: 20px; display: inline-block;">
+                    <img src="image/ant man and the wasp quantumania.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text"><b>The Wasp Quantumania</b><br>2018</p>
+                    </div>
+                </div>  
+            </a>
+        </center>
+        
+
+        <!-- ---------Other movies------------- -->
+        <br><br>
+        <video src="video/OTHER MOVIES.mp4" class="img-fluid" autoplay loop muted width="430rem"></video> 
+        <br>
+        <a href="">
+            <div class="card news_section_card" style="width: 12rem; margin: 15px; display: inline-block;">
+                <img src="image/X men.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text"><b>X-Man</b><br>2019</p>
+                </div>
+            </div>
+        </a>
+        <a href="">
+            <div class="card news_section_card" style="width: 12rem; margin: 15px; display: inline-block;">
+                <img src="image/Venom.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text"><b>Venow</b><br>2018</p>
+                </div>
+            </div>
+        </a>
+        <a href="">
+            <div class="card news_section_card" style="width: 12rem; margin: 20px; display: inline-block;">
+                <img src="image/Deadpool 2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text"><b>Deadpool 2</b><br>2018</p>
+                </div>
+            </div>
+        </a>
+       <a href="">
+        <div class="card news_section_card" style="width: 12rem; margin: 20px; display: inline-block;">
+            <img src="image/Logan.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text"><b>Logan</b><br>2017</p>
+            </div>
+        </div>
+       </a>
+
+        <a href="">
+            <div class="card news_section_card" style="width: 12rem; margin: 20px; display: inline-block;">
+                <img src="image/x-menapocalypse.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text"><b>Apocalyse</b><br>2016</p>
+                </div>
+            </div>
+        </a>
+       <a href="">
+        <div class="card news_section_card" style="width: 12rem; margin: 20px; display: inline-block;">
+            <img src="image/Deadpool.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text"><b>Deadpool</b><br>2016</p>
+            </div>
+        </div>
+       </a>
+        <a href="">
+            <div class="card news_section_card" style="width: 12rem; margin: 20px; display: inline-block;">
+                <img src="image//days of the Future part.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text"><b>Days of the future part</b><br> 2014</p>
+                </div>
+            </div>
+        </a>
+        <a href="">
+            <div class="card news_section_card" style="width: 12rem; margin: 20px; display: inline-block;">
+                <img src="image/Spider-man3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text"><b>Spider Man 3</b><br>2007</p>
+                </div>
+            </div>
+        </a>
+        <a href="">
+            <div class="card news_section_card" style="width: 12rem; margin: 20px; display: inline-block;">
+                <img src="image/Spider-man2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text"><b>Spider Man 2</b><br>2004</p>
+                </div>
+            </div>  
+        </a>
+        <a href="">
+            <div class="card news_section_card" style="width: 12rem; margin: 20px; display: inline-block;">
+                <img src="image/Spiider man.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text"><b>Spider Man</b><br>2002</p>
+                </div>
+            </div>
+        </a>
+        <a href="">
+            <div class="card news_section_card" style="width: 12rem; margin: 20px; display: inline-block;">
+                <img src="image/ant man and the wasp quantumania.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text"><b>The Wasp Quantumania</b><br>2018</p>
+                </div>
+            </div>  
+        </a>
+        
+        
+        <!-----------G_O_T_G_vol3---------------  -->
+        <div id="G_O_G_vol_3">
+            <a href="https://www.youtube.com/watch?v=u3V5KDHRQvk"><img src="image/Gardiyans of the galaxy vol 3 banner.jpeg" class="img-fluid" alt=""></a>
+            <a href=""></a>
+        <div>
+            <br><br>
+
+        <!-- ---------News section------------------ -->
+        <video src="video/LATEST MOVIES NEWS.mp4" class="img-fluid" autoplay loop muted width="430rem"></video> <br><br>
+        <center>
+        <div class="News_section">
+            <a href="https://movieweb.com/captain-america-4-star-anthony-mackie-teases-harrison-fords-role/">
+                <div class="card" style="width: 15rem;">
+                    <img src="image/News1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Captain America 4 Star Anthony Mackie Teases Harrison Ford’s Role in the MCU</p>
+                    </div>
+                  </div>
+            </a>
+              <a href="https://movieweb.com/secret-invasion-premiere-has-one-of-the-worst-mcu-viewer-numbers/">
+                <div class="card" style="width: 15rem;">
+                    <img src="image/News2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-title">Secret Invasion Premiere Has One of The Worst MCU Viewer Numbers.<br><br></p>
+                    </div>
+                  </div>
+              </a>
+              <a href="https://movieweb.com/lucrecia-martel-reason-doesnt-like-mcu-movies/">
+                <div class="card" style="width: 15rem;">
+                    <img src="image/News3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-title">Lucrecia Martel Reveals the One Particular Reason She Doesn’t Like the MCU Movies</p>
+                    </div>
+                  </div>
+              </a>
+              <a href="https://movieweb.com/marvel-set-to-bring-what-if-stories-of-loki-scarlet-witch-spider-man-and-more-to-new-adult-book-series/">
+                <div class="card" style="width: 15rem;">
+                    <img src="image/News4 (1).jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-title">Marvel Set To Bring What If..? Stories Of Loki, Scarlet Witch, Spider-Man and More to New Adult Book Series</p>
+                    </div>
+                  </div>
+              </a>
+              <a href="https://movieweb.com/harrison-ford-has-no-plans-to-retire/">
+                <div class="card" style="width: 15rem;">
+                    <img src="image/News5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Harrison Ford Has No Plans to Retire From Acting Any Time Soon <br><br></p>
+                    </div>
+                  </div>
+              </a>
+        </div>     
+        </center><br>  
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+              <li class="page-item disabled">
+                <a class="page-link">Previous</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+              </li>
+            </ul>
+          </nav>
+            
+        <!-- ------------------music secton---------------------- -->
+        <br><br>
+        <video src="video/Marvel music playlist.mp4" class="img-fluid" autoplay loop muted width="430rem"></video> 
+        <a href="https://open.spotify.com/embed/playlist/3e8kWcCuI1IpIFU4SxaFx6"><img src="image/Music ss.png"  class="img-fluid" alt=""></a>
+        <br><br><br>
+        
+        <!-- History marvel 7 last banner -->
+        <center>
+            <div class="card text-bg-dark last_banner_section" >
+                <video src="video/The_Story_of_Marvel_Studios__The_Making_of_the_Marvel_Cinematic_Universe(1080p).mp4"  class="card-img" autoplay controls muted></video>
+                <div class="card-img-overlay ">
+                    <h5 class="card-title">Marvel Studio</h5>
+                    <p class="card-text">In August 1996, Marvel created Marvel Studios, an incorporation of Marvel Films, due to the sale of New World Communications Group, Inc., Marvel's fellow Andrews Group subsidiary in film and television stations, to News Corporation/Fox.</p>
+                </div>
+            </div>
+        </center>
+
+
+        <div class="container-fluid last_banner " id="Marvel_Insider ">
+            <a href="https://www.marvel.com/insider?cid=dcom_promomodule_20210319_insider_home " class="btn btn-danger " style=" border-radius: 10px 0 10px 0 ; width: 110px; height: 40px; float: right; margin-top: 125px; margin-right: 340px; ">Join us</a>
+        </div>
+
+
+        <!-- -------footer--------- -->
+        <div class="container-fluid footer_grid_layout " style="background-color: rgb(37, 39, 39); " id="more">
+            <div class="row ">
+                <div class="col ">
+                    <img src="image/M_logo.png " alt=" " style="width: 160px; margin: 15px; ">
+                </div>
+                <div class="col footer_col ">
+                    <div class="row footer_row ">
+                        <a href=" ">
+                            <h5>ABOUT MARVEL</h5>
+                        </a>
+                    </div>
+                    <div class="row footer_row ">
+                        <a href=" ">
+                            <h5>HELP/FAQS</h5>
+                        </a>
+                    </div>
+                    <div class="row footer_row ">
+                        <a href=" ">
+                            <h5>CAREERS</h5>
+                        </a>
+                    </div>
+                    <div class="row footer_row ">
+                        <a href=" ">
+                            <h5>INTERNSHIPS</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="col footer_col ">
+                    <div class="row footer_row ">
+                        <a href=" ">
+                            <h6>ADVERTISING</h6>
+                        </a>
+                    </div>
+                    <div class="row footer_row ">
+                        <a href=" ">
+                            <h6>DISNEY+</h6>
+                        </a>
+                    </div>
+                    <div class="row footer_row ">
+                        <a href=" ">
+                            <h6>MARVELHQ.COM</h6>
+                        </a>
+                    </div>
+                    <div class="row footer_row ">
+                        <a href=" ">
+                            <h6>REDEEM DIGITAL COMICS</h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col footer_col ">
+                    <div class="row ">
+                        <a href=" " style="text-decoration: none; ">
+                            <h6 style="color:white ; ">MARVEL INSIDER</h6>
+                            <p style="color: rgb(85, 84, 84); ; ">Get Rewarded for Being a Marvel Fan</p>
+                        </a>
+                    </div>
+                    <div class="row ">
+                        <a href=" " style="text-decoration: none; ">
+                            <h6 style="color:white ; ">MARVEL UNLIMITED</h6>
+                            <p style="color:rgb(85, 84, 84); ; ">Access Over 30,000+ Digital Comics</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col text-center footer_col social_media ">
+                    <h6 style="color: white; ">FOLLOW MARVEL</h6>
+                    <div class="row ">
+                        <div class="col social_media link_hover ">
+                            <a href=" "> <i class="fa-brands fa-square-facebook "></i></a>
+                        </div>
+                        <div class="col social_media link_hover ">
+                            <a href=" "> <i class="fa-brands fa-twitter "></i></a>
+                        </div>
+                        <div class="col social_media link_hover ">
+                            <a href=" "> <i class="fa-brands fa-square-instagram "></i></a>
+                        </div>
+                        <div class="col social_media link_hover ">
+                            <a href=" "> <i class="fa-brands fa-square-tumblr "></i></a>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col social_media link_hover ">
+                            <a href=" "> <i class="fa-brands fa-youtube "></i></a>
+                        </div>
+                        <div class="col social_media link_hover ">
+                            <a href=" "> <i class="fa-brands fa-square-snapchat "></i></a>
+                        </div>
+                        <div class="col social_media link_hover ">
+                            <a href=" "> <i class="fa-brands fa-pinterest "></i></a>
+                        </div>
+                        <div class="col social_media link_hover ">
+                            <a href=" "> <i class="fa-brands fa-linkedin "></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container ">
+                <center>
+                    <div class="row last_section_footer " style="margin-top: 30px; ">
+                        <div class="col-sm ">
+                            <a href=" ">Terms of Use</a>
+                        </div>
+                        <div class="col-sm ">
+                            <a href=" ">Privacy Policy</a>
+                        </div>
+                        <div class="col-sm ">
+                            <a href=" ">Addendum to the Global Privacy Policy</a>
+                        </div>
+                        <div class="col-sm ">
+                            <a href=" ">Interest-Based Ads</a>
+                        </div>
+                        <div class="col-sm ">
+                            <a href=" ">License Agreement</a>
+                        </div>
+                        <div class="col-sm ">
+                            <a href=" ">©2023 MARVEL</a>
+                        </div>
+                    </div>
+                </center>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js " integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js " integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS " crossorigin="anonymous "></script>
+    <script>
+        
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+* {
+    /* font-family: 'Belanosima', sans-serif;
+    font-family: 'Roboto Slab', serif; */
+    /* font-family: 'Belanosima', sans-serif; */
+    /* font-family: 'Roboto Slab', serif; */
+    
+}
+
+.image_size {
+    margin: auto;
+    margin-top: 50px;
+    width: 100%;
+}
+
+
+/* -------nav bar ------ */
+
+.nav_hover :hover {
+    background-color: red;
+    border-radius: 4px;
+    color: white;
+}
+
+
+/* ----secret_invasion_banner----------- */
+#secret_invasion_banner
+{
+    margin-top: 15px;
+    
+}
+#secret_invasion_banner1
+{
+ background: url(image/secret-invasion-x_banner1.jpg);
+ height: 20vh;
+ width: 100%;
+}
+/* ---------movies--------- */
+.news_section_card:hover
+{
+    transform: scaleY(0.95);
+    /* transition: 1s; */
+}
+/* ------------News section----------- */
+.News_section 
+{
+   
+    
+}
+
+.News_section > a
+{
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* ---------Music --------- */
+
+/* -----------Marvel history------------ */
+.last_banner_section
+{
+    width: 80rem;
+}
+/* ----------- last banner ------------ */
+
+.last_banner {
+    background: url(image/poster0.jpg) no-repeat;
+    width: 1250px;
+    height: 13rem;
+    margin-top: 10px;
+}
+
+
+/* -------footer----------- */
+
+.footer_grid_layout {
+    width: 100%;
+    height: 50%;
+}
+
+.footer_col {
+    width: 20%;
+    height: 30vh;
+    margin: 10px;
+    padding-top: 35px;
+    font-size: 100%;
+}
+
+.footer_row>a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer_row>a :hover {
+    color: rgb(85, 84, 84);
+    transition: 1.1s;
+}
+
+.social_media>a {
+    font-size: 150%;
+    color: rgb(85, 84, 84);
+}
+
+.link_hover>a :hover {
+    color: rgb(208, 207, 207);
+    transition: 1.1s;
+}
+
+.last_section_footer>div>a {
+    text-decoration: none;
+    color: rgb(85, 84, 84);
+}
+
+.last_section_footer>div>a:hover {
+    color: white;
+    transition: 1.1s;
+}
